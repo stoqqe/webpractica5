@@ -1,0 +1,14 @@
+{
+  "name": "pr5-todo",
+  "version": "1.0.0",
+  "description": "To-Do: Node.js + Express + PostgreSQL REST API з фронтендом",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --env-file=.env server.js",
+    "dev": "node --env-file=.env --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  }
+}
